@@ -1,4 +1,4 @@
-# MicroServices-concepts
+# Monolothics vs SOA vs MicroServices-concepts
 
 What are Monolothics ?
 Monolothics architecture is consider a traditional way of application development in where it is built on single and divisible unit a client site user interface , business logic , database interface  to access database . they are on same server. Monolothics architecture is present from 2 decades. 
@@ -17,11 +17,9 @@ https://www.freelancinggig.com/blog/2019/02/19/understanding-monolith-vs-microse
 https://thecustomizewindows.com/2019/04/serverless-functions-vs-microservices/
 https://www.infoq.com/articles/serverless-microservices-flexibility/
 https://www.byteant.com/blog/serverless-vs-microservices-architecture-what-does-the-future-of-business-computing-look/
-
-
+https://thecustomizewindows.com/2019/04/serverless-functions-vs-microservices/
 https://thecustomizewindows.com/2019/04/serverless-functions-vs-microservices/
 
-https://thecustomizewindows.com/2019/04/serverless-functions-vs-microservices/
 Breaking a monolithic application into microservices
 Characteristics of Microservices
  
@@ -53,14 +51,16 @@ Service independence increases an application’s resistance to failure. In a mo
 ====================================================================
 Microservices and serverless are both important topics in the world of cloud-native computing. Yet, although serverless functions and microservices architectures often go hand-in-hand, they’re distinct technologies that fill different roles in modern software environments.
 Here’s an overview of what microservices and serverless are, how they relate to each other, how they are different, and why you may or may not wish to deploy a serverless microservice.
+
 What Are Microservices?
-The term “microservices” refers to an architectural pattern in which applications are broken down into a series of small services (hence the term “microservice”). Microservices architectures are the opposite of so-called monoliths (meaning applications where all functionality runs as a single entity).
+The term “microservices” refers to an architectural pattern in which applications are broken down into a series of small services (hence the term “microservice”). 
+Microservices architectures are the opposite of so-called monoliths (meaning applications where all functionality runs as a single entity).
 As a simple example of a microservices application, imagine a shopping app that lets users search for products, place them in their carts, and then complete their purchases. This app could be implemented as a series of discrete microservices:
-•	A frontend application interface.
-•	A search service that looks up products in a database based on user-generated search queries.
-•	A product-detail service that displays additional information about products that users click on.
-•	A shopping cart service to keep track of items that users place in their cart.
-•	A checkout service that handles the payment process.
+  •	A frontend application interface.
+  •	A search service that looks up products in a database based on user-generated search queries.
+  •	A product-detail service that displays additional information about products that users click on.
+  •	A shopping cart service to keep track of items that users place in their cart.
+  •	A checkout service that handles the payment process.
 This is just an example. In the real world, microservices applications can be implemented in a variety of ways. There are no hard-and-fast rules regarding how application functionality should be distributed across different microservices.
 Indeed, there’s not even a rule stating that you need a certain number of services for your application to count as an example of microservices. Technically, you could implement just a couple of services and call it a microservices app, although most developers include at least several microservices in each app.
 Although the concepts at the core of microservices date back decades (as evidenced by the microkernel hype in the 1980s and 1990s and the SOA trend of the 2000s, for example), it has only been over the past ten years or so that microservices have become immensely popular. That’s thanks largely to the scalability and flexibility that microservices bring to applications running in distributed, cloud-based environments. When you are deploying multiple instances of an application across dozens or more servers, microservices help ensure that you can distribute the load more equitably by running different microservices on different servers.
